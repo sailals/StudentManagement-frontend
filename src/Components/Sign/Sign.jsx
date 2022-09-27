@@ -67,7 +67,7 @@ function Sign() {
                   onClick={handleClick}
                   className="btn btn-primary w-100 mt-4"
                 >
-                  Sig In
+                  Sign In
                 </button>
               </form>
               <div className="social text-center mt-4">
