@@ -1,0 +1,164 @@
+/* Head CSS */
+
+.head {
+  padding: 20px 0;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.head .icon {
+  margin-left: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #64aa23;
+  color: #fff;
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+/* NavBar */
+
+header {
+  margin: 0 30px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+}
+header ul {
+  padding: 20px 10px;
+}
+
+header li {
+  margin-right: 40px;
+  padding-top: 15px;
+}
+header ul li a {
+  font-size: 18px !important;
+
+  color: #fff;
+  font-weight: 500;
+
+  transition: 0.5s;
+}
+header ul li a:hover {
+  color: #2d4b94;
+  border-bottom: 1px solid #2d4b94 !important;
+}
+.start {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #5e9170;
+  padding: 10px 50px;
+
+  color: #fff;
+  font-size: 18px !important;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+.toggle {
+  display: none;
+}
+.nav-link {
+  color: #fff;
+}
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.7);
+}
+.circle {
+  border-radius: 50% !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* .info {
+    display: none;
+  }
+  nav .navbar {
+    display: none;
+  }
+
+  .start {
+    display: none;
+    background-color: rgba(255, 255, 255, 0);
+    clip-path: none;
+  }
+  .button {
+    display: none;
+  }
+  header {
+    margin: 0;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  header ul.flex {
+    display: none;
+  }
+  .toggle {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }
+  .toggle i {
+    color: white;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+  }
+  header ul li {
+    margin-bottom: 20px;
+  } */
+  header {
+    margin: 0;
+  }
+  header ul {
+    padding: 10px 5px;
+  }
+  .logo h1 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .head .icon {
+    display: none;
+  }
+  .logo {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}

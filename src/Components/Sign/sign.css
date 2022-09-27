@@ -1,0 +1,19 @@
+.wrappers .row .col {
+  background-color: #fff !important;
+  color: yellowgreen;
+}
+
+.wrappers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  height: 500px;
+  width: 880px;
+}
+.page img {
+  height: 100%;
+  width: 100%;
+}

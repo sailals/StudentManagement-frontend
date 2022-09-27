@@ -1,0 +1,57 @@
+.universityName {
+  font-weight: 500;
+  font-size: 1.09rem;
+  margin-top: 0.1rem;
+  margin-right: 1.5rem;
+  color: oldlace;
+}
+.cdacimg {
+  max-width: 96px;
+  max-height: 65px;
+}
+.profile-img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+.profile-name {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  color: #0d0e23;
+}
+.profile-username {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+.square-qr {
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 0 100px #b4b4b4;
+}
+.date {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.mobile {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.address {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.center {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .center {
+    height: inherit;
+  }
+}
